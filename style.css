@@ -43,7 +43,7 @@ body {
 }
 .nav-link:hover {
   background-color: var(--pink);
-  color: white;
+  color: white !important;
 }
 /* end navbar */
 
@@ -138,4 +138,19 @@ body {
   .nav-item {
     border-bottom: none;
   }
+}
+
+/* newsletter */
+
+#newsletter .input-group {
+  max-width: 500px;
+}
+#newsletter .input-group .form-control {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+footer .brand {
+  font-family: var(--lg-font);
+  letter-spacing: 2px;
 }
